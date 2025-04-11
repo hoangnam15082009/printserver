@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>In Từ Xa</title>
+    <title>In PDF từ xa</title>
 </head>
 <body>
-    <h2>🖨️ Gửi Lệnh In Từ Xa</h2>
+    <h1>Gửi file PDF để in</h1>
     <form method="POST" action="/print" enctype="multipart/form-data">
-        <input type="file" name="file" required>
-        <button type="submit">In Ngay</button>
+        <input type="file" name="pdf_file" accept="application/pdf" required>
+        <button type="submit">In</button>
     </form>
 </body>
 </html>
